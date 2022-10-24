@@ -1,1 +1,17 @@
-/* Testing*/
+img {
+    height: 30%;
+    width: 30%;
+}
+header {
+    background-image: url("img/townbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    text-align: center;
+    border: 30%;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
