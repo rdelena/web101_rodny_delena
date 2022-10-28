@@ -1,3 +1,7 @@
+body {
+  margin: 20px;
+  background-color: #dfe8e5;
+}
 .box-container {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -20,6 +24,14 @@
   padding-left: 50%;
   padding-top: 55px;
   font-size: 40px;
+  color: #c1d3cd;
+}
+.title {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-align: center;
+  padding-left: 50%;
+  color: #4d5452;
 }
 img {
   grid-column-start: 1;
@@ -86,6 +98,9 @@ img {
   .name {
     padding-left: 0;
     padding-top: 0;
+  }
+  .title {
+    padding-left: 0;
   }
   .about-me-box {
     grid-column-start: 1;
