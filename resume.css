@@ -1,40 +1,63 @@
 .box-container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    width: 100vw;
-    height: 100vh;
-    border: solid red 1pt;
-    margin: 0;
+    width: 100%;
     gap: 1em;
     }
       
-.header {
+.banner {
     grid-column-start: 2;
     grid-row-start: 1;
-    border: solid black 2pt; /* add color and dimension to see more easily */
-    margin: 20pt 5pt;
-    padding: 2pt 5pt;
+    border: solid black 2pt; 
+
+    max-height: 200px;
     }
+.name {
+    text-align: center;
+
+
+}
 img {
     grid-column-start: 1;
     grid-row-start: 1;
     max-height: 300px;
     max-width: 300px;
 }
-.left-section {
-    grid-row-start: 3;
+/* .left-section {
+    grid-row-start: 2;
 }
 .right-section {
     grid-column-start: 2;
     grid-row-start: 2;
     height: 100vh;
-}
+} */
 .contact-box{
-  grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.hard-skill-box{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.soft-skill-box{
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.achievement-box{
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+.about-me-box{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.experience-box{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.education-box{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
 
-    
-}
-.hard-skill-box {
-    grid-row: 3;
-}
