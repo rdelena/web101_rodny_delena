@@ -1,6 +1,8 @@
 body {
   margin: 20px;
   background-color: #dfe8e5;
+  font-family: "Times New Roman", Times, serif;
+  color: #737e7b;
 }
 .box-container {
   display: grid;
@@ -41,10 +43,14 @@ img {
   margin: auto;
   z-index: 1;
 }
-
+h3 {
+  color: #4d5452;
+  /* text-align: center; */
+}
 .contact-box {
   grid-column-start: 1;
   grid-row-start: 2;
+  text-align: center;
 }
 .hard-skill-box {
   grid-column-start: 1;
