@@ -1,3 +1,36 @@
 body {
   margin: 15px;
+  background-image: url("img/contact-me-background.jpg");
+}
+nav {
+  display: inline;
+  padding-left: 10%;
+  list-style: none;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  background: #f7f7f7;
+  padding: 25px 15px 25px 10px;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  color: #888;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #e4e4e4;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+
+@media (min-width: 280px) {
+  body {
+    background-image: url("img/contact-me-background2.jpg");
+  }
+}
+@media (min-width: 750px) {
+  body {
+    background-color: lightgreen;
+  }
 }
