@@ -1,10 +1,21 @@
 body {
   margin: 15px;
   background-image: url("img/contact-me-background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 nav {
-  display: inline;
+  display: flex;
   list-style: none;
+  background-color: #75e6da;
+  height: 40px;
+}
+a {
+  margin: 25px;
+}
+li {
+  padding-top: 10px;
 }
 .contact-box {
   grid-area: contact;
@@ -80,6 +91,9 @@ h1 {
 @media only screen and (max-width: 500px) {
   body {
     background-image: url("img/contact-me-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
   form {
     display: grid;
@@ -92,8 +106,18 @@ h1 {
       "check"
       "back"
       "birthday"
-      "password"
+      "phone"
       "bio"
       "submit";
+  }
+  .bio-box {
+    text-align: center;
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    list-style: none;
+    background-color: #c3e0e5;
+    height: 40px;
   }
 }
