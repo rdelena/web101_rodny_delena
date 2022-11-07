@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
+    <nav>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="about.html">About Me</a></li>
+    </nav>
+    <br />
     <form action="results.html" method="GET" enctype="multipart/form-data">
+      <main>
+        <h1>Contact Me!</h1>
+        <p>
+          This is a test Contact Me Page! If you would like to get into contact
+          with me, please fill out the information below!
+        </p>
+      </main>
+      <br />
       <div>
-        <nav>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="about.html">About Me</a></li>
-        </nav>
-        <main>
-          <h1>Contact Me!</h1>
-          <p>This is a test Contact Me Page!</p>
-        </main>
         <label for="name">Name</label>
         <input type="text" name="name" id="name" />
       </div>
@@ -25,10 +30,6 @@
         <label for="email">Email</label>
         <input type="email" name="email" id="email" />
       </div>
-      <!-- <div>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age" min="1" max="200" step="5" />
-      </div> -->
       <div>
         <br />
         <h3>Select Your D.O.B for an optional Birthday wish!</h3>
@@ -55,48 +56,14 @@
         <label for="coding-academy-rec">Coding Academy Rec</label><br />
       </div>
       <br />
-      <!-- <div>
-        <br />
-        Favorite Food
-        <div>
-          <label for="banana">Banana</label>
-          <input type="checkbox" name="banana" id="banana" />
-        </div>
-        <div>
-          <label for="apple">Apple</label>
-          <input type="checkbox" name="apple" id="apple" />
-        </div>
-      </div> -->
       <div>
-        Gender
-        <div>
-          <label for="male">Male</label>
-          <input type="radio" name="gender" id="male" value="male" />
-        </div>
-        <div>
-          <label for="female">Female</label>
-          <input type="radio" name="gender" id="female" value="female" />
-        </div>
-        <div>
-          <label for="other">Other</label>
-          <input type="radio" name="gender" id="other" value="other" />
-        </div>
-        <div>
-          <h3>Do you want to be contacted back?</h3>
-          <label for="yes">Yes</label>
-          <input type="radio" name="contact-back" id="yes" value="yes" />
-        </div>
-        <div>
-          <label for="no">No</label>
-          <input type="radio" name="contact-back" id="no" value="no" />
-        </div>
+        <h3>Do you want to be contacted back?</h3>
+        <label for="yes">Yes</label>
+        <input type="radio" name="contact-back" id="yes" value="yes" />
       </div>
       <div>
-        <label for="eyeColor">Eye Color</label>
-        <select name="eyeColor" id="eyeColor" multiple>
-          <option value="Green">Green</option>
-          <option label="Red" value="Red"></option>
-        </select>
+        <label for="no">No</label>
+        <input type="radio" name="contact-back" id="no" value="no" />
       </div>
       <div>
         <br />
@@ -110,22 +77,9 @@
           maxlength="500"
         ></textarea>
       </div>
-      <input type="hidden" name="hidden" value="hi" />
-      <div>
-        <label for="file">File</label>
-        <input id="file" type="file" name="file" />
-      </div>
       <div>
         <label for="phone">Phone</label>
         <input type="tel" name="phone" id="phone" />
-      </div>
-      <div>
-        <label for="url">URL</label>
-        <input type="url" name="url" id="url" />
-      </div>
-      <div>
-        <label for="color">Color</label>
-        <input type="color" name="color" id="color" />
       </div>
       <div>
         <label>
@@ -133,8 +87,11 @@
           <input type="password" name="password" />
         </label>
       </div>
-      <button type="reset">Reset</button>
-      <button type="submit">Submit</button>
+      <section>
+        -->
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </section>
     </form>
     <script src="scripts.js"></script>
   </body>
