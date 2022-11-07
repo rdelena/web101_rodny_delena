@@ -1,10 +1,54 @@
 body {
   margin: 15px;
-  background-image: url("img/contact-me-background.jpg");
+  background-image: url("img/contact-me-background2.jpg");
 }
 nav {
   display: inline;
   list-style: none;
+}
+.contact-box {
+  grid-area: contact;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.name-box {
+  grid-area: name;
+  text-align: center;
+  margin: 25px;
+}
+.email-box {
+  grid-area: email;
+  text-align: center;
+  margin: 25px;
+}
+.check-box {
+  grid-area: check;
+  padding-left: 15%;
+  margin: 25px;
+}
+.birthday-box {
+  grid-area: birthday;
+  text-align: center;
+  margin: 25px;
+}
+.contactback-box {
+  grid-area: back;
+  text-align: center;
+  margin: 25px;
+}
+.phone-box {
+  grid-area: phone;
+  text-align: center;
+  margin: 25px;
+}
+.bio-box {
+  grid-area: bio;
+  text-align: center;
+  margin: 25px;
+}
+.submit-box {
+  grid-area: submit;
+  text-align: center;
 }
 form {
   margin-left: auto;
@@ -16,19 +60,40 @@ form {
   color: #888;
   text-shadow: 1px 1px 1px #fff;
   border: 1px solid #e4e4e4;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "contact contact"
+    "name email"
+    "check back"
+    "birthday phone"
+    "bio bio"
+    "submit submit";
 }
 h1 {
   text-align: center;
   margin: 30px;
 }
-
-@media (min-width: 280px) {
+@media only screen and (max-width: 500px) {
   body {
-    background-image: url("img/contact-me-background2.jpg");
+    background-image: url("img/contact-me-background.jpg");
   }
-}
-@media (min-width: 750px) {
-  body {
-    background-color: lightgreen;
+  form {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "contact"
+      "name"
+      "email"
+      "check"
+      "back"
+      "birthday"
+      "password"
+      "bio"
+      "submit";
   }
 }

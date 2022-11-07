@@ -14,29 +14,27 @@
     </nav>
     <br />
     <form action="results.html" method="GET" enctype="multipart/form-data">
-      <main>
+      <main class="contact-box">
         <h1>Contact Me!</h1>
         <p>
           This is a test Contact Me Page! If you would like to get into contact
           with me, please fill out the information below!
         </p>
       </main>
-      <br />
-      <div>
+      <div class="name-box">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" />
       </div>
-      <div>
+      <div class="email-box">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" />
       </div>
-      <div>
-        <br />
+      <div class="birthday-box">
         <h3>Select Your D.O.B for an optional Birthday wish!</h3>
         <label for="date">Birthdate:</label>
         <input type="date" name="date" id="date" min="1922-11-02" />
       </div>
-      <div>
+      <div class="check-box">
         <h3>How did you hear about me?</h3>
         <input type="checkbox" id="classmate" name="classmate" />
         <label for="classmate">Classmate</label><br />
@@ -55,18 +53,14 @@
         />
         <label for="coding-academy-rec">Coding Academy Rec</label><br />
       </div>
-      <br />
-      <div>
+      <div class="contactback-box">
         <h3>Do you want to be contacted back?</h3>
         <label for="yes">Yes</label>
         <input type="radio" name="contact-back" id="yes" value="yes" />
-      </div>
-      <div>
         <label for="no">No</label>
         <input type="radio" name="contact-back" id="no" value="no" />
       </div>
-      <div>
-        <br />
+      <div class="bio-box">
         <label for="bio">Bio</label>
         <textarea
           id="bio"
@@ -77,17 +71,17 @@
           maxlength="500"
         ></textarea>
       </div>
-      <div>
+      <div class="phone-box">
         <label for="phone">Phone</label>
         <input type="tel" name="phone" id="phone" />
       </div>
-      <div>
+      <!-- <div class="password-box">
         <label>
           Password
           <input type="password" name="password" />
         </label>
-      </div>
-      <section>
+      </div> -->
+      <section class="submit-box">
         -->
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
