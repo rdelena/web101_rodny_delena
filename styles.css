@@ -11,6 +11,10 @@ nav {
   text-align: center;
   border: 30%;
   width: 100%;
+  background-color: #189ab4;
+}
+a {
+  margin: 20px;
 }
 h1 {
   color: white;
