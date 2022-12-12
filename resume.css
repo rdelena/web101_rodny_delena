@@ -4,6 +4,13 @@ body {
   font-family: "Times New Roman", Times, serif;
   color: #737e7b;
 }
+/* Bootstrap Navbar changes */
+.navbar-toggler {
+  margin-right: 15px;
+}
+.navbar-collapse {
+  text-align: center;
+}
 .box-container {
   display: grid;
   grid-template-columns: 30% 70%;
