@@ -1,47 +1,11 @@
-img {
-  height: 20%;
-  width: 15%;
-}
-header {
-  background-image: url("img/townbackground.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-}
-a {
-  margin: 20px;
-}
-h1 {
-  color: white;
-  text-align: center;
-}
-body {
-  background-image: url("img/beach.jpg");
-  background-size: cover;
-}
-h2 {
-  color: white;
-}
-p {
-  color: white;
-}
-ul {
-  color: white;
-}
 /* Bootstrap Navbar changes */
-.navbar {
-  background-color: #00b5e2;
-  padding: 0;
-}
-#navbarNav {
-  background-color: white;
-}
-.nav-link {
-  margin: 5px;
-}
 .navbar-toggler {
-  background-color: white;
+  margin-right: 15px;
 }
 .container-fluid {
   text-align: center;
   padding: 5px;
+}
+.navbar-collapse {
+  text-align: center;
 }
