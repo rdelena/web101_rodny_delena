@@ -68,3 +68,16 @@ img.foreground {
   height: 550px;
   width: 500px;
 }
+.typing-content {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  img.foreground {
+    height: auto;
+    width: 100%;
+  }
+  .title {
+    font-size: 3rem;
+    padding-top: 200px;
+  }
+}
