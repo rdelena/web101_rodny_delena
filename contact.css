@@ -1,17 +1,25 @@
 body {
-  margin: 15px;
   background-image: url("img/contact-me-background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-nav {
-  display: flex;
-  list-style: none;
-  background-color: #75e6da;
-  height: 40px;
+.navbar-toggler {
+  margin-right: 15px;
 }
-a {
+.navbar-collapse {
+  text-align: center;
+}
+.media-nav {
+  margin: 0 auto;
+  padding-right: 50px;
+}
+.media-nav a {
+  color: white;
+  padding: 0 5px;
+  text-decoration: none;
+}
+/* a {
   margin: 25px;
 }
 li {
@@ -120,4 +128,4 @@ h1 {
     background-color: #c3e0e5;
     height: 40px;
   }
-}
+} */

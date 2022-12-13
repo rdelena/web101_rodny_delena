@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  margin: 0;
   background-color: #dfe8e5;
   font-family: "Times New Roman", Times, serif;
   color: #737e7b;
@@ -10,6 +10,15 @@ body {
 }
 .navbar-collapse {
   text-align: center;
+}
+.media-nav {
+  margin: 0 auto;
+  padding-right: 50px;
+}
+.media-nav a {
+  color: white;
+  padding: 0 5px;
+  text-decoration: none;
 }
 .box-container {
   display: grid;

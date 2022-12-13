@@ -1,9 +1,25 @@
 body {
-  margin: 15px;
+  margin: 0;
   height: 100vh;
   background-color: #ede7dc;
 }
-.container {
+/* Bootstrap Navbar changes */
+.navbar-toggler {
+  margin-right: 15px;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.media-nav {
+  margin: 0 auto;
+  padding-right: 50px;
+}
+.media-nav a {
+  color: white;
+  padding: 0 5px;
+  text-decoration: none;
+}
+/* .container {
   display: flex;
   grid-template-columns: 50% 50%;
 }
@@ -40,4 +56,4 @@ img {
     height: 100%;
     margin: 0;
   }
-}
+} */

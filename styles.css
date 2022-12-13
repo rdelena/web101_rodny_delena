@@ -80,6 +80,9 @@ img.foreground {
 .typing-content {
   text-align: center;
 }
+.content {
+  text-align: center;
+}
 .links {
   display: flex;
   flex: 1;
