@@ -1,8 +1,9 @@
 body {
-  background-image: url("img/contact-me-background2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("img/citybackground(edit).jpg");
+
   height: 100vh;
+  width: 100%;
+  color: white;
 }
 .navbar-toggler {
   margin-right: 15px;
@@ -19,113 +20,18 @@ body {
   padding: 0 5px;
   text-decoration: none;
 }
-/* a {
-  margin: 25px;
+div.media-nav {
+  font-size: x-large;
 }
-li {
-  padding-top: 10px;
+.content {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #061329;
 }
-.contact-box {
-  grid-area: contact;
-  text-align: center;
-  padding-bottom: 15px;
+.social-media a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
 }
-.name-box {
-  grid-area: name;
-  text-align: center;
-  margin: 25px;
-}
-.email-box {
-  grid-area: email;
-  text-align: center;
-  margin: 25px;
-}
-.check-box {
-  grid-area: check;
-  padding-left: 15%;
-  margin: 25px;
-}
-.birthday-box {
-  grid-area: birthday;
-  text-align: center;
-  margin: 25px;
-}
-.contactback-box {
-  grid-area: back;
-  text-align: center;
-  margin: 25px;
-}
-.phone-box {
-  grid-area: phone;
-  text-align: center;
-  margin: 25px;
-}
-.bio-box {
-  grid-area: bio;
-  text-align: center;
-  margin: 25px;
-}
-.submit-box {
-  grid-area: submit;
-  text-align: center;
-}
-form {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 900px;
-  background: #f7f7f7;
-  padding: 25px 15px 25px 10px;
-  font: 12px Georgia, "Times New Roman", Times, serif;
-  color: #888;
-  text-shadow: 1px 1px 1px #fff;
-  border: 1px solid #e4e4e4;
-  overflow: hidden;
-
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "contact contact"
-    "name email"
-    "check back"
-    "birthday phone"
-    "bio bio"
-    "submit submit";
-}
-h1 {
-  text-align: center;
-  margin: 30px;
-}
-@media only screen and (max-width: 500px) {
-  body {
-    background-image: url("img/contact-me-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  form {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "contact"
-      "name"
-      "email"
-      "check"
-      "back"
-      "birthday"
-      "phone"
-      "bio"
-      "submit";
-  }
-  .bio-box {
-    text-align: center;
-    margin: 0;
-  }
-  nav {
-    display: flex;
-    list-style: none;
-    background-color: #c3e0e5;
-    height: 40px;
-  }
-} */
