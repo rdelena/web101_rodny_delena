@@ -1,6 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 /* Bootstrap Navbar changes */
 .navbar-toggler {
@@ -17,4 +22,10 @@ body {
   color: white;
   padding: 0 5px;
   text-decoration: none;
+}
+div.media-nav {
+  font-size: x-large;
+}
+.container {
+  background-color: rgba(36, 33, 33, 0.705);
 }
