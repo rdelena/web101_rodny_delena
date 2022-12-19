@@ -30,8 +30,6 @@ div.media-nav {
 .container {
   background-color: rgba(36, 33, 33, 0.705);
 }
-.aboutparagraph {
-}
 h1 {
   text-align: center;
 }
@@ -39,22 +37,7 @@ h1 {
   height: 300px;
   width: 300px;
 }
-.painting {
-
-}
 @media only screen and (max-width: 700px) {
-  body {
-    
-  }
-  .container {
-
-  }
-  .aboutparagraph {
-
-  }
-  .painting {
-
-  }
   img {
     height: auto;
     width: 100%;
