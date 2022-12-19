@@ -1,10 +1,10 @@
 body {
   margin: 0;
   height: 100vh;
+  width: 100%;
   background-image: url(img/aboutbkg.jpg);
   background-color: black;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
@@ -29,17 +29,28 @@ div.media-nav {
 }
 .container {
   background-color: rgba(36, 33, 33, 0.705);
+  padding-top: 25px;
+}
+.aboutparagraph {
+  display: flex;
 }
 h1 {
   text-align: center;
+}
+p {
+  padding: 15px;
 }
 .food {
   height: 300px;
   width: 300px;
 }
 @media only screen and (max-width: 700px) {
-  img {
+  .aboutparagraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .food {
     height: auto;
     width: 100%;
   }
-} 
+}
