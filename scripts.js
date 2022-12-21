@@ -7,7 +7,7 @@ new URLSearchParams(window.location.search).forEach((value, name) => {
 
 let typed = new Typed(".auto-type", {
   strings: ["Software Engineer", "Web Developer", "Medical Professional"],
-  typeSpeed: 100,
-  backSpeed: 100,
+  typeSpeed: 75,
+  backSpeed: 75,
   loop: true,
 });
