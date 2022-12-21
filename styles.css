@@ -21,6 +21,9 @@ body {
 div.media-nav {
   font-size: x-large;
 }
+.typing-content{
+  z-index: 1;
+}
 /* parallax style */
 .title {
   font-size: 7rem;
