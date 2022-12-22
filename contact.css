@@ -30,6 +30,9 @@ div.media-nav {
   background-color: #061329;
   text-align: center;
 }
+p {
+  padding: 15px;
+}
 .social-media a {
   text-decoration: none;
   padding-right: 10px;

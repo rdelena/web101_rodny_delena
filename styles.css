@@ -21,7 +21,7 @@ body {
 div.media-nav {
   font-size: x-large;
 }
-.typing-content{
+.typing-content {
   z-index: 1;
 }
 /* parallax style */
@@ -133,7 +133,7 @@ img.foreground {
   padding: 0 15px;
   text-decoration: none;
 }
-iframe{
+iframe {
   padding: 5px;
 }
 @media only screen and (max-width: 700px) {
